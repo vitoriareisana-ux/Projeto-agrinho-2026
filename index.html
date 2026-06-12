@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumindo Sustentabilidade e Incentivando Nossos Produtores</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🌱 Consumindo Sustentabilidade e Incentivando Nossos Produtores</h1>
+    <p>
+        Apoie os produtores locais, fortaleça a economia regional e consuma alimentos frescos,
+        saudáveis e produzidos com responsabilidade ambiental.
+    </p>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#produtores">Produtores</a>
+    <a href="#apoio">Apoie</a>
+</nav>
+
+<div class="container">
+
+    <section id="sobre" class="sobre">
+        <h2>Sobre a Feira</h2>
+        <p>
+            Nossa feira online conecta consumidores e produtores locais,
+            promovendo práticas sustentáveis, comércio justo e valorização da agricultura familiar.
+        </p>
+    </section>
+
+    <section id="produtores">
+        <h2 class="titulo">Nossos Produtores</h2>
+
+        <div class="produtores">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800" alt="Hortaliças">
+                <div class="card-content">
+                    <h3>Horta Verde</h3>
+                    <p>Produção de verduras e legumes orgânicos.</p>
+                    <button onclick="apoiar('Horta Verde')">Apoiar</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=800" alt="Frutas">
+                <div class="card-content">
+                    <h3>Sítio Frutas da Terra</h3>
+                    <p>Frutas frescas produzidas sem agrotóxicos.</p>
+                    <button onclick="apoiar('Sítio Frutas da Terra')">Apoiar</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800" alt="Mel">
+                <div class="card-content">
+                    <h3>Apiário Doce Vida</h3>
+                    <p>Mel artesanal e produtos derivados.</p>
+                    <button onclick="apoiar('Apiário Doce Vida')">Apoiar</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="apoio" class="contador">
+        <h2>Pessoas que apoiaram nossos produtores</h2>
+        <h1 id="contador">0</h1>
+        <div id="mensagem"></div>
+    </section>
+
+</div>
+
+<footer>
+    <p>
+        © 2025 - Feira de Produtores Online | Consumindo Sustentabilidade e Incentivando Nossos Produtores
+    </p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
