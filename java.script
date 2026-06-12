@@ -1,0 +1,10 @@
+let totalApoios = 0;
+
+function apoiar(produtor) {
+    totalApoios++;
+
+    document.getElementById("contador").innerText = totalApoios;
+
+    document.getElementById("mensagem").innerText =
+        "Obrigado por apoiar o produtor: " + produtor + "!";
+}
